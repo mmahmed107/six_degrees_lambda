@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg
+.eggs/
+
+# Terraform local state
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# IDEs/editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+
+# Logs and coverage
+*.log
+*.coverage
+htmlcov/
+
+# Python test cache
+.cache/
+.pytest_cache/
+
+# Env variables or secrets
+.env
